@@ -11,17 +11,17 @@ export const metadata: Metadata = {
 };
 
 const whatYouGet = [
-  "One piece of perimenopause education — current, researched, and applied to the ND experience",
+  "One piece of perimenopause education, current, researched, and applied to the ND experience",
   "A nervous system check-in prompt to use during the week",
   "One recommended video from the free library",
-  "Lia's honest current thinking — including what she is reading, questioning, and learning",
+  "Lia's honest current thinking, including what she is reading, questioning, and learning",
   "Occasional community news, program updates, and early access to new content",
 ];
 
 const sampleExcerpt = {
   subject: "The 3am wake is not insomnia. It is cortisol.",
   preview:
-    "This week I want to talk about the 3am wake — the one that has you staring at the ceiling with a racing heart and a mind that cannot stop. Most women in my community have been told this is insomnia and offered sleep hygiene advice that does not touch it. Here is what is actually happening...",
+    "This week I want to talk about the 3am wake, the one that has you staring at the ceiling with a racing heart and a mind that cannot stop. Most women in my community have been told this is insomnia and offered sleep hygiene advice that does not touch it. Here is what is actually happening...",
 };
 
 export default function TheSparkPage() {

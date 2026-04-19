@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__claude_ai_Vercel__deploy_to_vercel",
+      "Bash(npx vercel *)",
+      "Bash(npm -v)"
+    ],
+    "additionalDirectories": [
+      "/Users/lilly33/LiaDominique"
+    ]
+  }
+}

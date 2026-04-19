@@ -47,7 +47,7 @@ export default async function LibraryPage() {
           <AnimatedSection delay={0.2}>
             <p className="font-body text-lg text-sacred-cream/65 leading-relaxed mb-10 max-w-2xl mx-auto">
               290 videos. Five layers. One library organised so you can start
-              exactly where your most urgent question lives — and never have to
+              exactly where your most urgent question lives, and never have to
               see all 290 at once.
             </p>
           </AnimatedSection>
@@ -113,7 +113,7 @@ export default async function LibraryPage() {
           </h2>
           <p className="font-body text-base text-sacred-cream/60 leading-relaxed mb-8">
             The Fire Circle is the free community where women who are watching
-            these videos come together — to talk, to process, to find each other.
+            these videos come together, to talk, to process, to find each other.
           </p>
           <Button asChild size="lg" variant="gold">
             <Link href="/fire-circle">Join The Fire Circle — Free</Link>

@@ -62,7 +62,7 @@ export function SectionHeading({
       {subheading && (
         <p
           className={cn(
-            "max-w-2xl text-base leading-relaxed font-body",
+            "max-w-2xl text-lg leading-relaxed font-body",
             light ? "text-sacred-cream/80" : "text-plum-muted"
           )}
         >

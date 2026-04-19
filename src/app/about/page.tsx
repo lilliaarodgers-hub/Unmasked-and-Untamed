@@ -97,12 +97,12 @@ export default async function AboutPage() {
                   />
                 ) : (
                   [
-                    "In 2021, Lia sat in a parking garage for forty minutes because she could not make herself walk inside. She had been experiencing symptoms for three years — brain fog that arrived without warning, emotional intensity that felt disproportionate to everything, a body that felt unfamiliar and a mind that felt unreliable.",
-                    "She had seen seven doctors. She had been told she had anxiety, depression, burnout, and stress. She had been prescribed antidepressants, referred to therapy, and told to reduce her workload. She had not been told she was in perimenopause. She had not been told her ADHD — diagnosed only the year before, at age 43 — was being amplified by estrogen decline. She had not been told that any of this was connected.",
+                    "In 2021, Lia sat in a parking garage for forty minutes because she could not make herself walk inside. She had been experiencing symptoms for three years, brain fog that arrived without warning, emotional intensity that felt disproportionate to everything, a body that felt unfamiliar and a mind that felt unreliable.",
+                    "She had seen seven doctors. She had been told she had anxiety, depression, burnout, and stress. She had been prescribed antidepressants, referred to therapy, and told to reduce her workload. She had not been told she was in perimenopause. She had not been told her ADHD, diagnosed only the year before at age 43, was being amplified by estrogen decline. She had not been told that any of this was connected.",
                     "That day in the parking garage, she could not walk inside because she could not find the cognitive resources to manage what would happen if she did. She sat in the car and searched, for the fifth time that month, for information about ADHD and perimenopause in women. She found almost nothing that addressed her experience directly. Almost nothing that spoke to the specific compound of neurodivergence and hormonal transition.",
                     "That was the beginning of Unmasked & Untamed.",
-                    "Lia spent the following two years building the resource she had needed — reading the research, interviewing specialists, gathering the community of women who were living the same experience, and building a free video library of 290 videos across the five layers of the perimenopause journey. All of it built specifically for neurodivergent women.",
-                    "Her Sacred Fire — the 10-week cohort program — followed. It is the container that holds all of the education together with live coaching, a small cohort, and the specific combination of science, soul, and nervous system support that exists nowhere else.",
+                    "Lia spent the following two years building the resource she had needed, reading the research, interviewing specialists, gathering the community of women who were living the same experience, and building a free video library of 290 videos across the five layers of the perimenopause journey. All of it built specifically for neurodivergent women.",
+                    "Her Sacred Fire, the 10-week cohort program, followed. It is the container that holds all of the education together with live coaching, a small cohort, and the specific combination of science, soul, and nervous system support that exists nowhere else.",
                   ].map((para, i) => (
                     <p key={i} className="font-body text-base text-dark-plum/70 leading-relaxed">
                       {para}
@@ -154,9 +154,9 @@ export default async function AboutPage() {
           </AnimatedSection>
 
           {[
-            "Lia is not neutral about the medical dismissal of women — and specifically of neurodivergent women — in perimenopause. The pattern of being told your symptoms are anxiety, your exhaustion is a lifestyle problem, and your brain fog is depression is not an individual failure. It is a systemic one.",
+            "Lia is not neutral about the medical dismissal of women, and specifically of neurodivergent women, in perimenopause. The pattern of being told your symptoms are anxiety, your exhaustion is a lifestyle problem, and your brain fog is depression is not an individual failure. It is a systemic one.",
             "This space stands against that dismissal. It stands against the wellness industry's repackaging of harmful health messaging for women in midlife. It stands against the idea that perimenopause is something to push through, minimise, or manage quietly.",
-            "And it stands against the specific invisibility of neurodivergent women of colour in every conversation about perimenopause — a gap this community is actively working to close.",
+            "And it stands against the specific invisibility of neurodivergent women of colour in every conversation about perimenopause, a gap this community is actively working to close.",
           ].map((para, i) => (
             <AnimatedSection key={i} delay={0.1 * (i + 1)}>
               <p className="font-body text-base text-dark-plum/70 leading-relaxed mb-5">

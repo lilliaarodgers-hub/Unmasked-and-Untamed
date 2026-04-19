@@ -72,7 +72,7 @@ export default async function HerSacredFirePage() {
           <AnimatedSection delay={0.2}>
             <p className="font-body text-lg text-sacred-cream/65 leading-relaxed mb-12 max-w-2xl mx-auto">
               10 weeks. Small cohort. Deep transformation. The program that has
-              never existed before — because you have never been the woman anyone
+              never existed before, because you have never been the woman anyone
               built a program for.
             </p>
           </AnimatedSection>
@@ -159,10 +159,10 @@ export default async function HerSacredFirePage() {
           </AnimatedSection>
 
           {[
-            "Her Sacred Fire is a 10-week container. Not a course you consume alone. Not a list of videos you will never watch. A container — with Lia, with a small cohort of women who are navigating the same intersection, and with the specific combination of science, soul, and nervous system support that exists nowhere else.",
-            "Each week builds on the last. The modules are dense and researched. The live calls are where the integration happens — where you bring your actual life to the material and Lia helps you see it clearly.",
+            "Her Sacred Fire is a 10-week container. Not a course you consume alone. Not a list of videos you will never watch. A container, with Lia, with a small cohort of women who are navigating the same intersection, and with the specific combination of science, soul, and nervous system support that exists nowhere else.",
+            "Each week builds on the last. The modules are dense and researched. The live calls are where the integration happens, where you bring your actual life to the material and Lia helps you see it clearly.",
             "The cohort is small deliberately. Lia will know your name. The women in your cohort will know your story. By the end of 10 weeks, you will have something most neurodivergent perimenopausal women have never had: a room full of people who understand exactly what you have been living.",
-            "This program does not require you to perform wellness. It does not require you to be positive. It requires you to show up — imperfectly, honestly, and as you actually are.",
+            "This program does not require you to perform wellness. It does not require you to be positive. It requires you to show up, imperfectly, honestly, and as you actually are.",
           ].map((para, i) => (
             <AnimatedSection key={i} delay={0.1 * (i + 1)}>
               <p className="font-body text-base text-dark-plum/70 leading-relaxed mb-6 text-left">
@@ -183,7 +183,7 @@ export default async function HerSacredFirePage() {
           <SectionHeading
             eyebrow="19 modules"
             heading="The full curriculum."
-            subheading="Body. Mind. Soul. Nervous System. Every dimension of the perimenopause experience — built for the neurodivergent woman."
+            subheading="Body. Mind. Soul. Nervous System. Every dimension of the perimenopause experience, built for the neurodivergent woman."
             align="center"
             className="mb-14"
           />

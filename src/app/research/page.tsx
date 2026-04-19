@@ -24,7 +24,7 @@ const resources = [
   },
   {
     title: "Estrogen's Effects on the Serotonergic System (Fink et al.)",
-    description: "The foundational research on how estrogen modulates serotonin — critical context for ND women.",
+    description: "The foundational research on how estrogen modulates serotonin, critical context for ND women.",
     type: "Research",
   },
   {
@@ -34,7 +34,7 @@ const resources = [
   },
   {
     title: "The WHI Study: What It Found and Why It Was Misreported",
-    description: "Understanding the study that shaped two decades of HRT avoidance — and what it actually showed.",
+    description: "Understanding the study that shaped two decades of HRT avoidance, and what it actually showed.",
     type: "Case Study",
   },
   {
@@ -47,7 +47,7 @@ const resources = [
 const standards = [
   "Every factual claim is sourced to peer-reviewed research or established clinical guidance.",
   "Where evidence is limited or contested, that limitation is named explicitly.",
-  "Research on neurodivergent women in perimenopause is extremely limited — where Lia extrapolates from related fields, this is clearly indicated.",
+  "Research on neurodivergent women in perimenopause is extremely limited, where Lia extrapolates from related fields, this is clearly indicated.",
   "No affiliation with supplement companies, pharmaceutical companies, or other commercial healthcare interests.",
   "This platform does not provide medical advice. The research is provided to support informed conversations with healthcare providers.",
 ];
@@ -96,8 +96,8 @@ export default function ResearchPage() {
 
           {[
             "Many neurodivergent women in perimenopause have been dismissed by healthcare providers who are either unfamiliar with the ND perimenopause intersection or who rely on outdated guidance. The best protection against that dismissal is the ability to read and evaluate the evidence yourself.",
-            "The Reading the Research series — 10 videos in the free library — teaches you how to evaluate a study, how to read an abstract, what relative risk actually means, and how to identify when research findings have been misrepresented in the media.",
-            "The WHI study is the most consequential example. A 2002 study that was misreported and misapplied, leading to two decades of avoidable suffering for women who were denied HRT on the basis of risk calculations that did not apply to them. Understanding what that study actually showed — and what it did not show — is essential context for any conversation with a healthcare provider about hormone therapy.",
+            "The Reading the Research series, 10 videos in the free library, teaches you how to evaluate a study, how to read an abstract, what relative risk actually means, and how to identify when research findings have been misrepresented in the media.",
+            "The WHI study is the most consequential example. A 2002 study that was misreported and misapplied, leading to two decades of avoidable suffering for women who were denied HRT on the basis of risk calculations that did not apply to them. Understanding what that study actually showed, and what it did not show, is essential context for any conversation with a healthcare provider about hormone therapy.",
           ].map((para, i) => (
             <AnimatedSection key={i} delay={0.1 * i}>
               <p className="font-body text-base text-dark-plum/70 leading-relaxed mb-5">{para}</p>
