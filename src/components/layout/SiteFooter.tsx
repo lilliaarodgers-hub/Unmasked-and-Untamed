@@ -4,6 +4,17 @@ import { NewsletterSignup } from "@/components/shared/NewsletterSignup";
 import { OrnamentsRow } from "@/components/shared/BrandDivider";
 import { SITE_NAME, NEWSLETTER_NAME, COACH_NAME } from "@/lib/constants";
 
+const socials = [
+  { label: "TikTok", href: "https://www.tiktok.com/@unmaskedanduntamed", abbr: "TT" },
+  { label: "YouTube", href: "https://www.youtube.com/@unmaskedanduntamed", abbr: "YT" },
+  { label: "Substack", href: "https://unmaskedanduntamed.substack.com", abbr: "SS" },
+  { label: "Pinterest", href: "https://www.pinterest.com/unmaskedanduntamed", abbr: "PI" },
+  { label: "Lemon8", href: "https://www.lemon8app.com/@unmaskedanduntamed", abbr: "L8" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/unmaskedanduntamed", abbr: "LI" },
+  { label: "Patreon", href: "https://www.patreon.com/unmaskedanduntamed", abbr: "PA" },
+  { label: "Skool", href: "https://www.skool.com/unmaskedanduntamed", abbr: "SK" },
+];
+
 export function SiteFooter() {
   const currentYear = new Date().getFullYear();
 
@@ -101,6 +112,22 @@ export function SiteFooter() {
         </div>
 
         <OrnamentsRow className="my-12" />
+
+        {/* Socials */}
+        <div className="flex flex-wrap justify-center gap-3 mb-10">
+          {socials.map((s) => (
+            <a
+              key={s.label}
+              href={s.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={s.label}
+              className="flex items-center gap-1.5 rounded-full border border-white/10 px-4 py-1.5 text-xs font-body text-sacred-cream/50 hover:border-warm-gold/50 hover:text-warm-gold transition-colors"
+            >
+              {s.label}
+            </a>
+          ))}
+        </div>
 
         <div className="flex flex-col items-center gap-3 text-center">
           <p className="font-body text-xs text-sacred-cream/35">
