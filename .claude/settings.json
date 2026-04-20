@@ -3,7 +3,12 @@
     "allow": [
       "mcp__claude_ai_Vercel__deploy_to_vercel",
       "Bash(npx vercel *)",
-      "Bash(npm -v)"
+      "Bash(npm -v)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(git pull *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
     ],
     "additionalDirectories": [
       "/Users/lilly33/LiaDominique"
