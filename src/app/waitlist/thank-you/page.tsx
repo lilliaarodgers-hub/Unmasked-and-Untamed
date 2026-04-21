@@ -44,15 +44,15 @@ export default function WaitlistThankYouPage() {
               </span>
             </div>
             <p className="font-body text-xs uppercase tracking-widest text-warm-gold font-semibold mb-4">
-              You're on the list
+              You&apos;re on the list
             </p>
             <h1 className="font-heading font-light text-hero text-sacred-cream leading-tight mb-6">
-              We'll see you
+              We&apos;ll see you
               <br />
               <em className="italic">when enrollment opens.</em>
             </h1>
             <p className="font-body text-base text-sacred-cream/65 leading-relaxed max-w-lg mx-auto">
-              Thank you for raising your hand. It matters. You'll be the first to
+              Thank you for raising your hand. It matters. You&apos;ll be the first to
               know when the next cohort opens for enrollment.
             </p>
           </AnimatedSection>
@@ -66,7 +66,7 @@ export default function WaitlistThankYouPage() {
               What happens next
             </p>
             <h2 className="font-heading font-light text-section text-deep-plum leading-tight">
-              Here's what to expect.
+              Here&apos;s what to expect.
             </h2>
           </AnimatedSection>
 

@@ -52,11 +52,11 @@ export default function ApplyThankYouPage() {
               Enrollment confirmed
             </p>
             <h1 className="font-heading font-light text-hero text-sacred-cream leading-tight mb-6">
-              You're in.
+              You&apos;re in.
             </h1>
             <p className="font-body text-base text-sacred-cream/65 leading-relaxed max-w-lg mx-auto">
               This was a brave thing to do. Choosing yourself, really choosing yourself,
-              is not always easy. We are glad you're here.
+              is not always easy. We are glad you&apos;re here.
             </p>
           </AnimatedSection>
         </div>
@@ -69,7 +69,7 @@ export default function ApplyThankYouPage() {
               What happens next
             </p>
             <h2 className="font-heading font-light text-section text-deep-plum leading-tight">
-              Here's what to expect.
+              Here&apos;s what to expect.
             </h2>
           </AnimatedSection>
 

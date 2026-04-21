@@ -132,7 +132,7 @@ export default function WaitlistPage() {
               </Button>
 
               <p className="font-body text-xs text-plum-muted/70 text-center leading-relaxed">
-                No spam. We contact you when enrollment opens — that's it.
+                No spam. We contact you when enrollment opens - that&apos;s it.
               </p>
             </form>
           </AnimatedSection>
