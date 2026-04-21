@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:www.notion.so)"
+      "WebFetch(domain:www.notion.so)",
+      "WebFetch(domain:unmasked-and-untamed.netlify.app)",
+      "WebFetch(domain:unmaskedanduntamed.netlify.app)"
     ]
   }
 }
