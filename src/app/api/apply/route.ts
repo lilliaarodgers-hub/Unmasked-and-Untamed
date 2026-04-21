@@ -1,11 +1,15 @@
 import { NextResponse } from "next/server";
 import Stripe from "stripe";
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: "2026-03-25.dahlia",
-});
-
 export async function POST(request: Request) {
+  const secretKey = process.env.STRIPE_SECRET_KEY;
+  const priceId = process.env.STRIPE_PRICE_ID;
+  if (!secretKey || !priceId) {
+    return NextResponse.json({ error: "Payment not configured." }, { status: 500 });
+  }
+
+  const stripe = new Stripe(secretKey, { apiVersion: "2026-03-25.dahlia" });
+
   let name: string, email: string, whyInvest: string, whyNow: string;
 
   try {
@@ -20,11 +24,6 @@ export async function POST(request: Request) {
 
   if (!name || !email || !whyInvest || !whyNow) {
     return NextResponse.json({ error: "All fields are required." }, { status: 400 });
-  }
-
-  const priceId = process.env.STRIPE_PRICE_ID;
-  if (!process.env.STRIPE_SECRET_KEY || !priceId) {
-    return NextResponse.json({ error: "Payment not configured." }, { status: 500 });
   }
 
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
