@@ -71,7 +71,7 @@ export default function ComingSoonPage() {
               variant="dark"
               placeholder="Your email address"
               ctaLabel="Notify me at launch"
-              formId="a479d9e93c"
+              formId="9350755"
             />
             <p className="mt-5 font-body text-xs text-sacred-cream/30">
               Your details stay private. Unsubscribe at any time.

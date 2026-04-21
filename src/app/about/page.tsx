@@ -193,7 +193,7 @@ export default async function AboutPage() {
               Or receive The Spark — Lia&rsquo;s weekly newsletter.
             </p>
             <div className="mt-4 max-w-md mx-auto">
-              <NewsletterSignup variant="dark" ctaLabel="Join The Spark" formId="05787d9f0c" />
+              <NewsletterSignup variant="dark" ctaLabel="Join The Spark" formId="9350755" />
             </div>
           </AnimatedSection>
         </div>

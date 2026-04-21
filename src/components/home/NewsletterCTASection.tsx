@@ -46,7 +46,7 @@ export function NewsletterCTASection() {
             variant="dark"
             placeholder="Your email address"
             ctaLabel="Join The Spark"
-            formId="05787d9f0c"
+            formId="9350755"
           />
         </AnimatedSection>
       </div>

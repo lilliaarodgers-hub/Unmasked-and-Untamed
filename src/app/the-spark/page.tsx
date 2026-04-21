@@ -56,7 +56,7 @@ export default function TheSparkPage() {
                 variant="dark"
                 placeholder="Your email address"
                 ctaLabel="Join The Spark"
-                formId="05787d9f0c"
+                formId="9350755"
               />
             </div>
           </AnimatedSection>
@@ -147,7 +147,7 @@ export default function TheSparkPage() {
           <AnimatedSection delay={0.1}>
             <p className="font-body text-sm text-plum-muted mb-6">Ready to join?</p>
             <div className="max-w-md mx-auto">
-              <NewsletterSignup placeholder="Your email address" ctaLabel="Join The Spark — Free" formId="05787d9f0c" />
+              <NewsletterSignup placeholder="Your email address" ctaLabel="Join The Spark — Free" formId="9350755" />
             </div>
           </AnimatedSection>
         </div>
