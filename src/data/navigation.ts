@@ -4,7 +4,6 @@ export const primaryNav: NavItem[] = [
   { label: "Home", href: "/" },
   { label: "Free Library", href: "/library" },
   { label: "Her Sacred Fire", href: "/her-sacred-fire" },
-  { label: "Shop", href: "/shop" },
   { label: "Blog", href: "/blog" },
   { label: "About", href: "/about" },
   { label: "Get Started", href: "/library#start-here", isCTA: true },
